@@ -13,6 +13,9 @@
 .container-900{
     max-width: 900px;
 }
+.container-925{
+    max-width: 925px;
+}
 .container-844{
     max-width: 844px;
 }
@@ -50,7 +53,7 @@
 .upper-footer{
     background-image: url('/assets/footer-header.jpg');
     height: 400px;
-    background-position: center center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -146,4 +149,55 @@
 }
 .box-images{
     object-fit: cover;
+}
+.upper-footer-h2{
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 32px;
+}
+.upper-footer-h4{
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 28px;
+}
+.box-image-h4{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+}
+.box-image-p{
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+}
+.cards-h4{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: black;
+}
+.cards-p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+}
+
+.blue-card-left{
+    padding: 50px 40px 20px 0px;
+}
+.blue-card-right{
+    padding: 50px 0px 20px 40px;
+}
+.blue-card-h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.blue-card-p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
 }
