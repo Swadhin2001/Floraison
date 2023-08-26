@@ -201,3 +201,56 @@
     font-size: 15px;
     line-height: 24px;
 }
+.small-card-h4{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: white;
+}
+.small-card-heading{
+    padding: 10px 10px 0px 10px;
+}
+.small-card-p{
+    padding: 10px 10px 10px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+.custom-card-body{
+    width: 555px;
+}
+.custom-card-img{
+    width: 170px;
+    height: 224px;
+    object-fit: cover;
+    object-position: 70% 20%;
+}
+.long-card-h4{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+}
+.long-card-p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+}
+.input-item{
+    background-color : #F9F9F9;
+    border: 0;
+    color: #2B2B2B;
+}
+.map-h4{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+}
+.btn-dark{
+    background-color: black !important;
+}
+.resources-banner{
+    background-position: top center;
+}
+.our-company-header{
+    background-position: bottom center;
+}

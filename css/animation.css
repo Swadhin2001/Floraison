@@ -11,3 +11,13 @@
 .transition{
     animation: transitionIn 2s;
 }
+.hidden-up-down{
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: 2s;
+}
+.show{
+  opacity: 1;
+  transform: translateY(0);
+  transition: 2s;
+}
