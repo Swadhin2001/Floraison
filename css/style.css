@@ -230,6 +230,18 @@
 .custom-card-body{
     width: 555px;
 }
+.custom-card-body_1{
+    width: auto;
+    height:312px;
+}
+.custom-card-body_2{
+    width: auto;
+    height:216px;
+}
+.custom-card-body_3{
+    width: auto;
+    height:260px;
+}
 .custom-card-img{
     width: 170px;
     height: 224px;
@@ -240,6 +252,7 @@
     font-weight: 600;
     font-size: 17px;
     line-height: 21px;
+    color:black;
 }
 .long-card-p{
     font-weight: 400;
