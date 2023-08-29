@@ -19,6 +19,9 @@
 .container-844{
     max-width: 844px;
 }
+.container-800{
+    max-width: 800px;
+}
 .right-image-about{
     padding: 80px 60px 80px 40px;
     display: flex;
@@ -49,10 +52,16 @@
     line-height: 23px;
     color: black;
 }
-.card-body-hover:hover{
+.card-body:hover{
     background-color: rgb(43, 43, 43);
     cursor: pointer;
-    color: white;
+    color: white !important;
+    transition: 1s;
+}
+.card-body:hover .card-body-h4,.card-body:hover .card-body-p{
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s;
 }
 .upper-footer{
     background-image: url('../assets/footer-header.jpg');
@@ -277,4 +286,46 @@
 }
 .our-company-header{
     background-position: bottom center;
+}
+.small-black-cards{
+    background-color: black;
+    padding: 10px 10px 10px 10px ;
+    border-style: solid;
+    border-width: 1px 0px 0px 1px;
+    border-color: #FFFFFF;
+    width: 264px;
+    height: 40px;
+    margin: 0px;
+    line-height: 22px;
+}
+.small-black-cards:hover{
+    background-color: rgb(43, 43, 43);
+}
+.new-card-body-h4{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    color: black;
+}
+.new-card-body-p{
+    padding: 0px 20px 0px 20px;
+}
+.card-body-new:hover{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    cursor: pointer;
+}
+.new-card-body:hover .new-card-body-h4, .new-card-body:hover .new-card-body-p{
+    color: white;
+}
+.resources-card{
+    padding: 0px 20px 0px 0px;
+}
+.resources-card-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.card-padding{
+    padding: 0px 0px 0px 40px;
 }
