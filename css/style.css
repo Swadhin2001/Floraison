@@ -16,19 +16,26 @@
 .container-925{
     max-width: 925px;
 }
+.container-890{
+    width: 890px;
+    height: 78px;
+}
 .container-844{
     max-width: 844px;
 }
 .container-800{
     max-width: 800px;
 }
+.container-786{
+    max-width: 786px;
+}
 .right-image-about{
-    padding: 80px 60px 80px 40px;
+    padding: 80px 60px 80px 40px !important;
     display: flex;
     align-items: center;
 }
 .left-image-about{
-    padding: 80px 40px 80px 60px;
+    padding: 80px 40px 80px 60px !important;
     display: flex;
     align-items: center;
 }
@@ -169,6 +176,8 @@
 }
 .box-images{
     object-fit: cover;
+    height:500px;
+    width: 600px;
 }
 .upper-footer-h2{
     font-weight: 600px;
@@ -281,11 +290,16 @@
 .btn-dark{
     background-color: black !important;
 }
+.object-pos-right{
+    object-position: right;
+}
 .resources-banner{
+    background-image: url(../assets/resource-center-header.jpg);
     background-position: top center;
 }
 .our-company-header{
     background-position: bottom center;
+    background-image: url(../assets/our-company-banner.jpg);
 }
 .small-black-cards{
     background-color: black;
@@ -328,4 +342,130 @@
 }
 .card-padding{
     padding: 0px 0px 0px 40px;
+}
+.index-herosection-banner{
+    background-image: url(../assets/home-banner.jpg);
+}
+.explore-suits-cards{
+    width: 18rem;
+}
+.index-horizontal-slide{
+    height: 260px;
+    width: auto;
+}
+.contact-herosection-banner{
+    background-image: url(../assets/contact-us-header.jpg);
+}
+.india-entry-strat-hero-banner{
+    background-image: url(../assets/india-entry-strategies-banner.jpg);
+}
+.india-entry-strat-blue-cards{
+    background-image: linear-gradient(90deg, #1E4C9E 50%, #315BA8 50%);
+}
+.india-peo-hero-banner{
+    background-image: url(../assets/india-peo-services-banner-new.jpg);
+}
+.india-peo-small-card{
+    width: auto;
+    height:298px;
+}
+.india-peo-big-card-body{
+    padding: 12px 0px 0px 12px;
+}
+.india-subsidiary-hero-banner{
+    background-image: url(../assets/india-entry-strategies-banner.jpg);
+}
+.india-subsidiary-cards{
+    width: auto; 
+    height: 480px;
+}
+.our-execution-hero-banner{
+    background-image: url(../assets/our-execution-header-banner.jpg);
+}
+.our-leadership-hero-banner{
+    background-image: url(../assets/our-leadership-header-banner.jpg);
+}
+.leadership-team-card{
+    width: auto;
+    height: 414px;
+}
+.leadership-team-card-img{
+    height:210px;
+}
+.our-client-service-card{
+    width: auto; 
+    height: 324px;
+}
+.local-expertise-hero-banner{
+    background-image: url(../assets/local-expertise-banner.jpg);
+}
+.e-brochures-img{
+    height: 275px;
+    width: 212px;
+}
+.small-business-hero-banner{
+    background-image: url(../assets/small-business-support-banner.jpg);
+}
+.benifit-floraison-card-1{
+    width: 226px; 
+    height: 212px;
+}
+.benifit-floraison-card-2{
+    width: 226px; 
+    height: 236px;
+}
+.small-business-card{
+    width: auto;
+    height: 524px;
+}
+.subsidiadry-support-hero-banner{
+    background-image: url(../assets/subsidiary-support-banner.jpg); 
+    background-position: 0px -80px;
+}
+.subsidiary-support-card{
+    width: auto; 
+    height: 480px;
+}
+.work-with-us-hero-banner{
+    background-image: url(../assets/work-with-us-banner.jpg);
+}
+.current-open-pos-card-img-1 {
+    height: 310px;
+    width: 170px;
+    object-fit: cover;
+}
+.current-open-pos-card-img-2{
+    height: 214px;
+    width: 170px;
+    object-fit: cover;
+}
+.current-open-pos-card-img-3{
+    height: 258px;
+    width: 170px;
+    object-fit: cover;
+}
+.navbar-background{
+    background: linear-gradient(to right, white 0 70%, black 70% 100%);
+}
+.nav-left{
+    margin-left: 27px; margin-right: 27px;
+}
+.nav-left  div{
+    padding-left: 40px ; display: flex; align-items: center;
+}
+.nav-logo{
+    width: 135px;
+}
+.nav-modal-a-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.modal {
+    position: absolute !important;
+    right: 0% !important;
+}
+.resources-a{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
 }

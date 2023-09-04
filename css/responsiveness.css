@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    body {
+      overflow-x: hidden;
+    }
+    .row-odd {
+        flex-direction: column-reverse;
+    }
+    .banner-mobile{
+        position: static !important;
+    }
+    .black-cards-mobile{
+        position: static !important;
+    }
+    .explore-suits-cards-mobile{
+        width: auto;
+        height: auto;
+    }
+    .box-image-mobile{
+        width: auto;
+        height: 300px;
+    }
+    .box-image-about-mobile{
+        padding: 0px 10px 0px 10px;
+    }
+    .right-image-about{
+        padding: 0px;
+    }
+    .box-image-heading-mobile{
+        font-size: 24px;
+        line-height: 1.5em;
+    }
+}

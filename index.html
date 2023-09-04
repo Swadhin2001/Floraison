@@ -13,18 +13,56 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/animation.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="./css/slider.css">
+        <link rel="stylesheet" href="./css/responsiveness.css">
     </head>
     <body>
         <!-- Navbar Starts -->
-        <section>
-            
+        <section class="navbar-background">
+            <div class="container-1200">
+                <div class="row g-0">
+                    <div class="col-md-auto nav-left position-relative" >
+                        <div class="container-890">
+                            <a href="./index.html">
+                                <img src="./assets/floraison-logo.svg" alt=""  class="nav-logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-auto d-flex align-content-center">
+                        <button type="button" class="btn text-white ms-2 shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Menu &nbsp;&nbsp;<i class="fa fa-bars" aria-hidden="true"></i>
+                          </button>
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content bg-black">
+                                <div class="modal-body d-flex flex-column">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  <a href="./index.html" class="text-decoration-none text-white nav-modal-a-padding">Home</a>
+                                  <a href="./our-company.html" class="text-decoration-none text-white nav-modal-a-padding">Our Company</a>
+                                  <a href="./our-leadership.html" class="text-decoration-none text-white nav-modal-a-padding">Our Leadership</a>
+                                  <a href="./our-execution.html" class="text-decoration-none text-white nav-modal-a-padding">Our Execution</a>
+                                  <a href="./our-local-expertise.html" class="text-decoration-none text-white nav-modal-a-padding">Local Expertise</a>
+                                  <a href="./work-with-us.html" class="text-decoration-none text-white nav-modal-a-padding">Work With Us</a>
+                                  <a href="./resource-center.html" class="text-decoration-none text-white nav-modal-a-padding" >Resources Center</a>
+                                  <a href="./contact-us.html" class="text-decoration-none text-white nav-modal-a-padding" >Contact Us</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Navbar Ends -->
         <!-- Herosection Starts-->
         <section class="transition">
-            <div class="home-banner position-relative " style="background-image: url(./assets/home-banner.jpg);">
+            <div class="home-banner position-relative index-herosection-banner banner-mobile">
                 <!-- Black Cards Section Starts -->
-                <div class="container-844 black-cards position-absolute ">
+                <div class="container-844 black-cards position-absolute black-cards-mobile">
                     <div class="row">
                         <div class="col-md-auto black-card-hover">
                             <a href="./india-entry-strategies.html" class="text-decoration-none text-white">India Entry Strategies</a>
@@ -51,28 +89,21 @@
         <!-- Box Image Right and Left Starts -->
         <section class="my-5 pt-5">
             <div class="text-center mb-5 hidden-up-down">
-                <h2 class="box-img-heading m-0">Your Gateway to India</h2>
+                <h2 class="box-img-heading m-0 box-image-heading-mobile">Your Gateway to India</h2>
                 <p class="box-img-about">Expand your global business and enter the Indian markets NOW!</p>
             </div>
             <!-- Image Right -->
             <div class="d-flex justify-content-center hidden-up-down">
                 <div class="container-1200">
-                    <div class="row g-0">
-                        <div class="col-md-6 right-image-about">
-                            <div class="d-flex flex-column align-content-center align-items-center">
+                    <div class="row g-0 row-odd">
+                        <div class="col-md-6 right-image-about ">
+                            <div class="d-flex flex-column align-content-center box-image-about-mobile">
                                 <h4 class="mb-3 box-image-h4">If you aren’t doing business in India, it’s time to re-think!</h4>
                                 <p class="m-0 box-image-p">Enter the Indian markets NOW. India’s journey on the path of economic reforms has transformed it to one of the world’s fastest growing economies. Its large, young & growing population is its best asset. Sectors like IT and ITES, Retail, Ecommerce, Manufacturing, Pharma and Healthcare, R&D and so many other sectors are projected to provide serious growth opportunities to global and Indian companies who are doing business in India.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img
-                                src="./assets/If-you-arent-doing-business-in-India-its-time-to-re-think.jpg"
-                                alt=""
-                                height="500px"
-                                width="600px"
-                                class="box-images"
-                                style="object-position: right;"
-                            >
+                            <img src="./assets/If-you-arent-doing-business-in-India-its-time-to-re-think.jpg" alt="" class="box-images object-pos-right box-image-mobile">
                         </div>
                     </div>
                 </div>
@@ -82,16 +113,10 @@
                 <div class="container-1200">
                     <div class="row g-0">
                         <div class="col-md-6">
-                            <img
-                                src="./assets/Your-journey-into-India-starts-by-choosing-the-right-partner.jpg"
-                                alt=""
-                                height="500px"
-                                width="600px"
-                                class="box-images"
-                            >
+                            <img src="./assets/Your-journey-into-India-starts-by-choosing-the-right-partner.jpg" alt="" class="box-images box-image-mobile">
                         </div>
                         <div class="col-md-6 left-image-about">
-                            <div class="d-flex flex-column align-items-center">
+                            <div class="d-flex flex-column align-items-center box-image-about-mobile">
                                 <h4 class="mb-4 box-image-h4">Your journey into India starts by choosing the right partner</h4>
                                 <p class="m-0 box-image-p">Your journey into India, of course, starts with engaging and supported by the right partner – who has the capability and resolve to guide you throughout. The choice of a strategic consulting firm offering holistic professional services, can make a huge difference to the business of a global organization. Increasingly, more than ever before, global organizations need to carefully engage local firms that have expertise of handling global companies and managing their growth, with a proactive consulting approach, which would mitigate all possible risks.</p>
                             </div>
@@ -101,20 +126,21 @@
             </div>
         </section>
         <!-- Box Image Right and Left Ends -->
-
         <!-- Cards Section Starts-->
         <section class="my-5">
             <div class="text-center">
                 <h4 class="cards-h4">Explore our Service Suite</h4>
-                <p class="cards-p">Share your plans with us and help us customise a workable strategy for your effective entry into India.
-                    <br> Go beyond your current needs and experience our holistic range of services tailored for you
+                <p class="cards-p">
+                    Share your plans with us and help us customise a workable strategy for your effective entry into India.
+                    <br>
+                    Go beyond your current needs and experience our holistic range of services tailored for you
                 </p>
             </div>
             <div class="d-flex justify-content-center p-0 my-5 ">
                 <div class="container-900">
-                    <div class="row ">
-                        <div class="col-md-4">
-                            <div class="card rounded-0  border border-secondary" style="width: 18rem;">
+                    <div class="row hidden-down-up">
+                        <div class="col-md-4 col-mobile">
+                            <div class="card rounded-0  border border-secondary explore-suits-cards explore-suits-cards-mobile">
                                 <img src="./assets/India Entry-Strategies.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body  ">
                                     <a href="./india-entry-strategies.html" class="text-decoration-none">
@@ -125,7 +151,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card rounded-0  border border-secondary" style="width: 18rem;">
+                            <div class="card rounded-0  border border-secondary explore-suits-cards">
                                 <img src="./assets/India-Subsidiary.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body text-center border-top border-secondary">
                                     <a href="./india-subsidiary.html" class="text-decoration-none">
@@ -136,7 +162,7 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card rounded-0  border border-secondary" style="width: 18rem;">
+                            <div class="card rounded-0  border border-secondary explore-suits-cards">
                                 <img src="./assets/Subsidiary-Support.jpg" class="card-img-top rounded-0" alt="...">
                                 <div class="card-body text-center">
                                     <a href="./subsidiary-support.html" class="text-decoration-none">
@@ -151,7 +177,7 @@
                         <div class="container-624">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="card rounded-0  border border-secondary" style="width: 18rem;">
+                                    <div class="card rounded-0  border border-secondary explore-suits-cards">
                                         <img src="./assets/India-PEO-Services.jpg" class="card-img-top rounded-0" alt="...">
                                         <div class="card-body text-center">
                                             <a href="./india-peo-services.html" class="text-decoration-none">
@@ -162,7 +188,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card rounded-0  border border-secondary" style="width: 18rem;">
+                                    <div class="card rounded-0  border border-secondary explore-suits-cards">
                                         <img src="./assets/Small-Business-Support.jpg" class="card-img-top rounded-0" alt="...">
                                         <div class="card-body text-center border-top border-secondary">
                                             <a href="./small-business-support.html" class="text-decoration-none">
@@ -186,22 +212,18 @@
                 <div class="container-1200">
                     <div class="row g-0">
                         <div class="col-md-6">
-                            <img
-                                src="./assets/Finding-perfect-growth-story-for-our-global-and-domestic-clients.jpg"
-                                alt=""
-                                height="500px"
-                                width="600px"
-                                class="box-images"
-                            >
+                            <img src="./assets/Finding-perfect-growth-story-for-our-global-and-domestic-clients.jpg" alt="" class="box-images">
                         </div>
                         <div class="col-md-6 left-image-about">
                             <div class="d-flex flex-column align-items-center">
                                 <h4 class="mb-4 box-image-h4">Finding perfect growth story for our global and domestic clients</h4>
-                                <p class="m-0 box-image-p">Floraison is a strategic and business consulting company founded in 2002 and is based out of Bangalore, India. Since our inception, we have helped more than 300 global companies to create successful businesses in India under our India Entry Strategies and have nurtured the aspirations of more than 200 domestic entrepreneurs with our Small Business Support.
+                                <p class="m-0 box-image-p">
+                                    Floraison is a strategic and business consulting company founded in 2002 and is based out of Bangalore, India. Since our inception, we have helped more than 300 global companies to create successful businesses in India under our India Entry Strategies and have nurtured the aspirations of more than 200 domestic entrepreneurs with our Small Business Support.
                                     <br>
                                     <br>
                                     <a href="/" class="text-decoration-none text-black">
-                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i> Know more about us
+                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i>
+                                        Know more about us
                                     </a>
                                 </p>
                             </div>
@@ -221,19 +243,14 @@
                                     <br>
                                     <br>
                                     <a href="/" class="text-decoration-none text-black">
-                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i> Meet our leadership team
+                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i>
+                                        Meet our leadership team
                                     </a>
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img
-                                src="./assets/Benefit-from-our-visionary-leadership-and-astute-planning.jpg"
-                                alt=""
-                                height="500px"
-                                width="600px"
-                                class="box-images"
-                            >
+                            <img src="./assets/Benefit-from-our-visionary-leadership-and-astute-planning.jpg" alt="" class="box-images">
                         </div>
                     </div>
                 </div>
@@ -243,13 +260,7 @@
                 <div class="container-1200">
                     <div class="row g-0">
                         <div class="col-md-6">
-                            <img
-                                src="./assets/Each-engagement-is-managed-by-single-point-of-contact.jpg"
-                                alt=""
-                                height="500px"
-                                width="600px"
-                                class="box-images"
-                            >
+                            <img src="./assets/Each-engagement-is-managed-by-single-point-of-contact.jpg" alt="" class="box-images">
                         </div>
                         <div class="col-md-6 left-image-about">
                             <div class="d-flex flex-column align-items-center">
@@ -259,7 +270,8 @@
                                     <br>
                                     <br>
                                     <a href="/" class="text-decoration-none text-black">
-                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i> See how we do this
+                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i>
+                                        See how we do this
                                     </a>
                                 </p>
                             </div>
@@ -279,84 +291,85 @@
                                     <br>
                                     <br>
                                     <a href="/" class="text-decoration-none text-black">
-                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i> Learn how this benefits you
+                                        <i class="fa fa-angle-double-right color-black" aria-hidden="true"></i>
+                                        Learn how this benefits you
                                     </a>
                                 </p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img
-                                src="./assets/Our-unmatched-experience-and-local-expertise-will-guide-you-throughout.jpg"
-                                alt=""
-                                height="500px"
-                                width="600px"
-                                class="box-images"
-                            >
+                            <img src="./assets/Our-unmatched-experience-and-local-expertise-will-guide-you-throughout.jpg" alt="" class="box-images">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Horizontal Slide Section -->
-        <section>
-            <div class="">
-                <h4 class="text-center horizontal-slide-h4">Download our ePublications</h4>
-                <div class="d-flex justify-content-center">
-                    <div class="container-900 mb-5 pb-5">
-                        <div class="row fadeInUp">
+        <!-- Horizontal Slide Section Starts-->
+        <section class="mb-5 pb-4">
+            <h4 class="text-center horizontal-slide-h4 m-0">Download our ePublications</h4>
+            <div class="d-flex justify-content-center">
+                <div id="myCarousel" class="carousel slide container-900" data-bs-ride="carousel">
+                    <div class="carousel-inner w-100">
+                        <div class="carousel-item active">
                             <div class="col-md-3">
-                                <img
-                                    src="./assets/Floraison-Small-Business-Support-border-new.jpg"
-                                    alt=""
-                                    height="260px"
-                                    width="auto"
-                                >
+                                <img src="./assets/Floraison-India-Entry-Strategies-India-Subsidiary-border-new.jpg" alt="" class="index-horizontal-slide">
                             </div>
+                        </div>
+                        <div class="carousel-item">
                             <div class="col-md-3">
-                                <img
-                                    src="./assets/Floraison-Small-Business-Support-border-new.jpg"
-                                    alt=""
-                                    height="260px"
-                                    width="auto"
-                                >
+                                <img src="./assets/Floraison-India-Entry-Strategies-India-PEO-border-new.jpg" alt="" class="index-horizontal-slide">
                             </div>
+                        </div>
+                        <div class="carousel-item">
                             <div class="col-md-3">
-                                <img
-                                    src="./assets/Floraison-Small-Business-Support-border-new.jpg"
-                                    alt=""
-                                    height="260px"
-                                    width="auto"
-                                >
+                                <img src="./assets/Floraison-Small-Business-Support-border-new.jpg" alt="" class="index-horizontal-slide">
                             </div>
+                        </div>
+                        <div class="carousel-item">
                             <div class="col-md-3">
-                                <img
-                                    src="./assets/Floraison-Small-Business-Support-border-new.jpg"
-                                    alt=""
-                                    height="260px"
-                                    width="auto"
-                                >
+                                <img src="./assets/Floraison-India-Entry-Strategies-India-Subsidiary-border-new.jpg" alt="" class="index-horizontal-slide">
                             </div>
                         </div>
                     </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#myCarousel"
+                        data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#myCarousel"
+                        data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </section>
+        <!-- Horizontal Slide Section Ends-->
         <!-- Footer Starts -->
         <section class="mt-5">
             <!-- Upper Footer Section -->
-            <div class="d-flex flex-column align-items-center justify-content-center upper-footer">
+            <div class="d-flex flex-column align-items-center justify-content-center upper-footer hidden-down-up">
                 <h2 class="text-white upper-footer-h2 pb-2">Ready to get started?</h2>
-                <h4 class="text-white pb-3 upper-footer-h4">start@floraison.in
+                <h4 class="text-white pb-3 upper-footer-h4">
+                    start@floraison.in
                 </h2>
                 <a href="./contact-us.html">
-                    <button class="footer-button" >Contact Us</button>
+                    <button class="footer-button">Contact Us</button>
                 </a>
             </div>
             <!-- Lower Footer Section -->
-            <div class="bg-black lower-footer">
+            <div class="bg-black lower-footer ">
                 <div class="container-1200">
-                    <div class="row p-4">
-                        <div class="col-md-4 text-white mx-4 px-4">
+                    <div class="row p-4 hidden-down-up">
+                        <div class="col-md-4 text-white mx-4 px-4 ">
                             <h4 class="text-white footer-h4 pb-2">Contact Us</h4>
                             <p class="text-white footer-links">
                                 <strong>Floraison India Strategic Consulting Pvt Ltd</strong>
@@ -409,11 +422,13 @@
             </div>
         </section>
         <!-- Footer Ends -->
-
         <!-- Bootstrap Script -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         <!-- Animation Script -->
-        <script src= './js/animation.js'></script>
+        <script src="./js/animation.js"></script>
+        <!-- Slider Script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./js/slider.js"></script>
     </body>
 </body>
 </html>
