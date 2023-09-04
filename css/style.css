@@ -502,3 +502,15 @@
 .navbar{
     z-index: 99 !important;
 }
+.nav-right{
+    width: 100vw;
+}
+.nav-left{
+    width: 220vw;
+    height: 78px;
+}
+.nav-button{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+}
