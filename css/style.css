@@ -459,6 +459,7 @@
 .nav-modal-a-padding{
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-left: 50px;
 }
 .modal {
     position: absolute !important;
@@ -468,4 +469,32 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 21px;
+}
+.modal-dialog {
+    right: 0px !important;
+    position: absolute !important;
+    width: 31% !important;
+    height: 100vh !important;
+}
+.custom-modal{
+    height: 100vh;
+}
+.active-submenu{
+    background-color: rgb(43, 43, 43) !important;
+}
+.active-footer{
+    color:  #8D8D8D !important;
+}
+.active-navbar{
+    color: #404040 !important;
+}
+.nav-button{
+    padding-left: 100px !important;
+    padding-bottom: 10px !important;
+}
+.nav-hover:hover{
+    color: #404040 !important;
+}
+.navbar{
+    z-index: 99 !important;
 }
