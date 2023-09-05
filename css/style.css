@@ -119,6 +119,7 @@
 .black-cards{
     bottom: -40px;
     margin-left: 40px;
+    position: absolute;
 }
 .black-card-hover{
     padding-top: 25px;
@@ -349,6 +350,7 @@
 }
 .index-herosection-banner{
     background-image: url(../assets/home-banner.jpg);
+    position: relative;
 }
 .explore-suits-cards{
     width: 18rem;

@@ -5,21 +5,19 @@
     .row-odd {
         flex-direction: column-reverse;
     }
-    .banner-mobile{
-        position: static !important;
-    }
     .black-cards-mobile{
         position: static !important;
     }
-    .explore-suits-cards-mobile{
+    .explore-suits-cards{
         width: auto;
         height: auto;
+        margin: 10px;
     }
-    .box-image-mobile{
-        width: auto;
-        height: 300px;
+    .box-images{
+        width: 100%;
+        height: auto;
     }
-    .box-image-about-mobile{
+    .right-image-about, .left-image-about{
         padding: 0px 10px 0px 10px;
     }
     .right-image-about{
@@ -28,5 +26,15 @@
     .box-image-heading-mobile{
         font-size: 24px;
         line-height: 1.5em;
+    }
+    .black-cards{
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+        top: 410px;
+    }
+    .body-mobile{
+        margin-top: 400px !important;
     }
 }
