@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     body {
-      overflow-x: hidden;
+        overflow-x: hidden;
     }
     .row-odd {
         flex-direction: column-reverse;
