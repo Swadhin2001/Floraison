@@ -478,6 +478,7 @@
     right: 0px !important;
     position: absolute !important;
     width: 31% !important;
+    height: 100vh !important;
 }
 .custom-modal{
     height: 100vh;
@@ -507,7 +508,6 @@
 .nav-left{
     width: 220vw;
     height: 78px;
-    background-color: white;
 }
 .nav-button{
     font-weight: 500;
