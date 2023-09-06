@@ -90,6 +90,9 @@
     font-weight: 600;
     line-height: 18px;
 }
+.custom-button{
+    width: 40px !important;
+}
 .footer-button:hover{
     background:transparent;
     color: white;
@@ -99,6 +102,11 @@
     font-size: 14px;
     line-height: 21px;
     color: black;
+}
+.our-company-body{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
 }
 .lower-footer{
     padding: 30px 20px 0px 20px;
@@ -118,7 +126,7 @@
 }
 .black-cards{
     bottom: -40px;
-    margin-left: 40px;
+    margin-left: 60px;
     position: absolute;
 }
 .black-card-hover{

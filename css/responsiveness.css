@@ -102,7 +102,7 @@ body {
         width: auto !important;
         margin: 0px !important;
     }
-    .container-900,.container-844, .container-925, .container-944, .container-404, .container-800, .container-786, .container-1140, .container-1200, .container-1300{
+    .container-900, .container-925, .container-944, .container-404, .container-800, .container-786, .container-1140, .container-1200, .container-1300{
         overflow-x: hidden;
     }
 }
