@@ -108,4 +108,40 @@ body {
     .container-900, .container-925, .container-944, .container-404, .container-800, .container-786, .container-1140, .container-1200, .container-1300{
         overflow-x: hidden;
     }
+    .modal-form-body{
+        width: auto !important;
+        height: auto !important;
+    }
+    .form-input{
+        width: 300px !important;
+    }
+    .form-padding{
+        padding: 50px 50px 50px 50px;
+    }
+    .form-heading{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .form-heading-about{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .form-p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .send-btn{
+        width: 300px !important;
+        height: auto !important;
+        font-size: 15px !important;
+        font-weight: 700 !important;
+        line-height: 15px !important;
+    }
+    .modal-header{
+        border: none !important;
+        height: 0px !important;
+    }
 }
