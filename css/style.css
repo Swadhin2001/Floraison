@@ -490,6 +490,9 @@
     width: 31% !important;
     height: 100vh !important;
 }
+.custom-button-right {
+    margin-right: 23px;
+}
 .custom-modal{
     height: 100vh;
 }

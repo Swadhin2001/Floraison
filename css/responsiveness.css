@@ -75,6 +75,9 @@ body {
     .custom-card-body{
         margin: 10px;
     }
+    .custom-button-right{
+        margin: auto;
+    }
     .custom-card-body_1, .custom-card-body_2, .custom-card-body_3{
         flex-direction: column;
         text-align: center;
