@@ -23,7 +23,7 @@
     .right-image-about{
         padding: 0px;
     }
-    .box-image-heading-mobile{
+    .box-img-heading{
         font-size: 24px;
         line-height: 1.5em;
     }
@@ -36,5 +36,67 @@
     }
     .body-mobile{
         margin-top: 400px !important;
+    }
+    .blue-card-left{
+        background-color:  #1E4C9E !important;
+        padding-left: 25px;
+    }
+    .blue-card-right{
+        background-color:  #315BA8 !important;
+        padding-right: 25px;
+    }
+    .card{
+        margin: 10px;
+        width: auto;
+    }
+    .small-black-cards{
+        width: auto;
+    }
+    .container-844 {
+        padding: 10px;
+        margin: 0px 20px 0px 20px;
+    }
+    .box-image-h4{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .custom-card-body{
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+    .custom-card-img{
+        width: auto;
+    }
+    .custom-card-body{
+        margin: 10px;
+    }
+    .custom-card-body_1, .custom-card-body_2, .custom-card-body_3{
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin: 10px;
+    }
+    .current-open-pos-card-img-1, .current-open-pos-card-img-2, .current-open-pos-card-img-3{
+        width: auto;
+    }
+    .e-brocure-card{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .e-brochures-img{
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    .card-padding{
+        padding: 0px !important;
+    }
+    .mobile-padding-contact-us{
+        padding: 20px !important;
+        width: auto !important;
+        margin: 0px !important;
     }
 }
